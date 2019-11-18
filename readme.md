@@ -6,13 +6,12 @@
 # 目录结构
 
 ──── waffffff
-    ├─── layui            // layui前端组件
-    ├─── admin.php        // 流量查看界面
-    ├─── api.php          // 流量可视化查看界面的api接口文件
-    ├─── check.php        // 权限检查的test文件
-    ├─── config.php       // 配置文件
-    ├─── functions.php    // 一些函数
-    └─── waf.php          // waf主文件
+    │   admin.php 
+    │   api.php
+    │   check.php
+    │   config.php 
+    │   functions.php
+    │   waf.php
 
 # 使用
 
