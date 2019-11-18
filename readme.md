@@ -46,11 +46,28 @@ $ find . -path ./waffffff -prune -o -type f -name "*.php" -print | xargs sed -i 
 ```
 ## 流量查看
 
+流量查看界面采用 layui 前端组件编写而成。
+
 访问 web 目录下的 waffffff/admin.php?password+密码 。
 
 ![admin](./pic/admin.png)
 
+headers、cookies、GET、POST、FILES 可点击查看更详细美观的表格形式数据。被拦截原因也可点击弹窗查看数据。
+
+![admin](./pic/get.png)
+
 # 测试
 
-目录遍历漏洞中， ../../../etc
-上传
+上传图片马被拦截：
+
+![admin](./pic/test.png)
+
+查看流量具体信息：
+
+![admin](./pic/headers.png)
+
+![admin](./pic/files.png)
+
+被拦截细则：
+
+![admin](./pic/result.png)
