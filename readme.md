@@ -1,17 +1,7 @@
 针对 AWD 中 php 网页设计的 waf，主要有三个功能：
 1. 记录所有 status_code==200 的请求，记录的字段包括：时间、IP、请求文件、请求方法、headers、cookies、GET、POST、FILES。
 2. 拦截预先设置的攻击流量，并记录是否被拦截，以及拦截原因。
-3. 可视化浏览所有流量记录，并可根据  IP 和时间进行搜索。
-
-# 目录结构
-
-──── waffffff  
-    │   admin.php  
-    │   api.php  
-    │   check.php  
-    │   config.php  
-    │   functions.php  
-    │   waf.php  
+3. 可视化浏览所有流量记录，并可根据  IP 和时间进行搜索。 
 
 # 使用
 
