@@ -156,8 +156,8 @@ layui.use(['table', 'form'], function() {
             ,{field: 'get_data', title: 'GET', sort: false, event: 'showGET', templet: function(res){if(JSON.parse(res.get_data).length===0)return '';else return res.get_data;}, align:'left'}
             ,{field: 'post_data', title: 'POST', sort: false, event: 'showPOST', templet: function(res){if(JSON.parse(res.post_data).length===0)return '';else return res.post_data;}, align:'left'}
             ,{field: 'files_data', title: 'FILES', sort: false, event: 'showFILES', templet: function(res){if(JSON.parse(res.files_data).length===0)return '';else return res.files_data;}, align:'left'}
-            ,{field: 'is_wafed', title: '是否被WAF', sort: true, align:'center'}
-            ,{field: 'wafed_result', title: '被WAF原因', sort: false, event: 'showResult', align:'left'}
+            ,{field: 'is_wafed', title: '是否被拦截', sort: true, align:'center'}
+            ,{field: 'wafed_result', title: '被拦截原因', sort: false, event: 'showResult', align:'left'}
         ]]
         ,id: 'idTest'
     });
