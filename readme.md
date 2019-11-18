@@ -5,13 +5,13 @@
 
 # 目录结构
 
-──── waffffff
-    │   admin.php 
-    │   api.php
-    │   check.php
-    │   config.php 
-    │   functions.php
-    │   waf.php
+──── waffffff  
+    │   admin.php  
+    │   api.php  
+    │   check.php  
+    │   config.php  
+    │   functions.php  
+    │   waf.php  
 
 # 使用
 
